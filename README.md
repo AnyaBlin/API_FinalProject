@@ -33,7 +33,7 @@
  ```
 gradle clean test
 ```
-### <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/> Запуск в [Jenkins](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/)
+### Запуск в [Jenkins](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/) <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
 
 При нажатии кнопки "Собрать сейчас" автоматически начнётся запуск тестов
 
@@ -55,9 +55,9 @@ gradle clean test
 
 <a href="https://ibb.co/sKsHmpv"><img src="https://i.ibb.co/WkBtxNW/api-Test-Case-Jen.png" border="0"></a>
 
-### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Отчёт о прохождении автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224)
+### Отчёт о прохождении автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224) <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
 
 <a href="https://ibb.co/QPhJJpS"><img src="https://i.ibb.co/sy3jH02/api-Test-SR.png" alt="api-Test-SR" border="0"></a>
 
-### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224/tree?treeId=0)
+### Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224/tree?treeId=0) <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
 <a href="https://ibb.co/Ryxxmts"><img src="https://i.ibb.co/5FNNyCS/apiTC.png" alt="apiTC" border="0"></a>
