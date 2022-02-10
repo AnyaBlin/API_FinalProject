@@ -1,44 +1,63 @@
-# Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+ # <p align= "center"> Проект автоматизированных REST API тестов на сайт [Reqres.In](https://reqres.in/) </p>
+ 
+ ## Были выполнены следующие REST API тесты:
+ 
+<h3> Методом POST: </h3>
 
-# Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
+ 🌸 ___Success/Unsuccess login___
+ 
+ 🌸 ___Success/Unsuccess registration___
+ 
+ 🌸 ___Create user___
+ 
+ <h3> Методом GET:  </h3>
+ 
+ 🌸 ___Single user not found___
+ 
+ 🌸 ___Single user___
 
+ ## Технологический стек
+ 
+ <a href="https://github.com/angry-qa/vkc-demo">
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Java.svg" width="40" height="40"  alt="Java"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Gradle.svg" width="40" height="40"  alt="Gradle"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/JUnit5.svg" width="40" height="40"  alt="JUnit 5"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg" width="40" height="40"  alt="IDEA"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg" width="40" height="40"  alt="Seleide"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
+  <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
+</a>
 
-# USAGE examples
-
-### For run remote tests need fill remote.properties or to pass value:
-
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
-
-
-Run tests with filled remote.properties:
-```bash
+ ## Запуск тестов
+ ```
 gradle clean test
 ```
+### <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/> Запуск в [Jenkins](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/)
 
-Run tests with not filled remote.properties:
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
+При нажатии кнопки "Собрать сейчас" автоматически начнётся запуск тестов
 
-Serve report:
-```bash
-allure serve build/allure-results
-```
+<a href="https://ibb.co/1vbKqQw"><img src="https://i.ibb.co/GxFk2pb/jenApi.png" alt="jenApi" border="0"></a>
 
+### Анализ результатов тестирования
 
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
+Более подробно результаты тестов можно рассмотреть в:
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+[Allure Report](#Отчёт-о-прохождении-автотестов-в-Allure-Report)
+
+[Allure TestOps](#Отчёт-о-прохождении-автотестов-в-Allure-TestOps)
+
+### Отчёт о прохождении автотестов в [Allure Report](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/8/allure/)
+
+<a href="https://ibb.co/544TLTq"><img src="https://i.ibb.co/Khh6W6C/stat-All-Api.png" alt="statAllApi" border="0"></a>
+
+### Список автотестов в [Allure Report](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/8/allure/#suites/634e7802c602b0ae5dbf9d15f4efe3e0/e58335f069046e7b/)
+
+<a href="https://ibb.co/sKsHmpv"><img src="https://i.ibb.co/WkBtxNW/api-Test-Case-Jen.png" border="0"></a>
+
+### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Отчёт о прохождении автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/9847)
+
+<a href="https://ibb.co/QPhJJpS"><img src="https://i.ibb.co/sy3jH02/api-Test-SR.png" alt="api-Test-SR" border="0"></a>
+
+### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/9847/tree?treeId=1792&from=WyIzMjIzIl0%3D)
+<a href="https://ibb.co/Ryxxmts"><img src="https://i.ibb.co/5FNNyCS/apiTC.png" alt="apiTC" border="0"></a>
