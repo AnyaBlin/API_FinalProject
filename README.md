@@ -55,9 +55,9 @@ gradle clean test
 
 <a href="https://ibb.co/sKsHmpv"><img src="https://i.ibb.co/WkBtxNW/api-Test-Case-Jen.png" border="0"></a>
 
-### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Отчёт о прохождении автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/9847)
+### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Отчёт о прохождении автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224)
 
 <a href="https://ibb.co/QPhJJpS"><img src="https://i.ibb.co/sy3jH02/api-Test-SR.png" alt="api-Test-SR" border="0"></a>
 
-### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/9847/tree?treeId=1792&from=WyIzMjIzIl0%3D)
+### <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/> Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224/tree?treeId=0)
 <a href="https://ibb.co/Ryxxmts"><img src="https://i.ibb.co/5FNNyCS/apiTC.png" alt="apiTC" border="0"></a>
