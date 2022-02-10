@@ -48,6 +48,7 @@ public class ApiTests extends ApiTestBase {
         User user = new User();
         user.setEmail("eve.holt@reqres.in");
         user.setPassword("pistol");
+        user.setId("4");
         given()
                 .spec(request)
                 .body(user)
@@ -55,7 +56,7 @@ public class ApiTests extends ApiTestBase {
                 .post("/register")
                 .then()
                 .spec(response)
-                .body("token", is("QpwL5tke4Pnpja7X4"), "id", is(4));
+                .body("token", is("QpwL5tke4Pnpja7X4"), "id", is(user.getId()));
     }
 
     @Test
@@ -99,6 +100,19 @@ public class ApiTests extends ApiTestBase {
                 .then()
                 .statusCode(404)
                 .body(is("{}"));
+    }
+
+    @Test
+    @DisplayName("Get single user")
+    void singleUser() {
+        User user = new User();
+        given()
+                .spec(request)
+                .when()
+                .get("/users/2")
+                .then()
+                .spec(response)
+                .body("id", is(user.getId()), "email",is(user.getEmail()) );
     }
 
 }
