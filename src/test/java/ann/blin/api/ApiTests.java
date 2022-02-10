@@ -48,7 +48,7 @@ public class ApiTests extends ApiTestBase {
         User user = new User();
         user.setEmail("eve.holt@reqres.in");
         user.setPassword("pistol");
-        user.setId("4");
+        user.setId(4);
         given()
                 .spec(request)
                 .body(user)
