@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ann.blin.api.ApiTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-10T08:05:55" hostname="DESKTOP-KU819J5" time="3.894">
-  <properties/>
-  <testcase name="Get single user" classname="ann.blin.api.ApiTests" time="3.894"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
