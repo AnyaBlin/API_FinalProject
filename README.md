@@ -60,4 +60,9 @@ gradle clean test
 <a href="https://ibb.co/QPhJJpS"><img src="https://i.ibb.co/sy3jH02/api-Test-SR.png" alt="api-Test-SR" border="0"></a>
 
 ### Список автотестов в [Allure TestOps](https://allure.autotests.cloud/launch/10224/tree?treeId=0) <img src="https://starchenkov.pro/qa-guru/img/skills/Allure_EE.svg" width="40" height="40"  alt="Allure TestOps"/>
+
 <a href="https://ibb.co/Ryxxmts"><img src="https://i.ibb.co/5FNNyCS/apiTC.png" alt="apiTC" border="0"></a>
+
+### Результаты о прохождении тестов в [Jira](https://jira.autotests.cloud/browse/HOMEWORK-332)<img src="https://starchenkov.pro/qa-guru/img/skills/Jira.svg" width="40" height="40"  alt="Jira"/>
+
+<a href="https://ibb.co/nkDqk8F"><img src="https://i.ibb.co/tCbwCP9/jiraApi.png" alt="jiraApi" border="0"></a>
