@@ -29,10 +29,6 @@
   <img src="https://starchenkov.pro/qa-guru/img/skills/Github.svg" width="40" height="40"  alt="Github"/>
 </a>
 
- ## Запуск тестов
- ```
-gradle clean test
-```
 ### Запуск в [Jenkins](https://jenkins.autotests.cloud/job/009-AnnaBlin-ItogApi/) <img src="https://starchenkov.pro/qa-guru/img/skills/Jenkins.svg" width="40" height="40"  alt="Jenkins"/>
 
 При нажатии кнопки "Собрать сейчас" автоматически начнётся запуск тестов
