@@ -1,13 +1,14 @@
-package ann.blin.api;
+package ann.blin.tests;
 
 import ann.blin.models.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static ann.blin.api.Specs.request;
-import static ann.blin.api.Specs.response;
+import static ann.blin.spec.Specs.request;
+import static ann.blin.spec.Specs.responseSpec;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
+
 
 public class ApiTests extends ApiTestBase {
 
@@ -55,7 +56,7 @@ public class ApiTests extends ApiTestBase {
                 .when()
                 .post("/register")
                 .then()
-                .spec(response)
+                .spec(responseSpec)
                 .body("token", is("QpwL5tke4Pnpja7X4"), "id", is(user.getId()));
     }
 
@@ -111,8 +112,7 @@ public class ApiTests extends ApiTestBase {
                 .when()
                 .get("/users/2")
                 .then()
-                .spec(response)
-                .body("id", is(user.getId()), "email",is(user.getEmail()) );
+                .spec(responseSpec)
+                .body("id", is(user.getId()), "email", is(user.getEmail()));
     }
-
 }

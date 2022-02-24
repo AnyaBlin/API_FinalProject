@@ -1,4 +1,4 @@
-package ann.blin.api;
+package ann.blin.tests;
 
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
